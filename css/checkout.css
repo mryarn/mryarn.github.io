@@ -1,0 +1,157 @@
+.button {
+    height: 18px;
+    line-height: 18px;  
+    font-size: 75%;
+    background-color: #DDDDDD;
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    width: 47px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 3px;
+    text-align: center;
+}
+#payPalCheckoutButtonImage {
+    cursor: pointer;
+}
+#floater	{float:left; height:50%; margin-bottom:-10px;}
+#content	{clear:both; height:20px; position:relative;}
+#checkoutsteps { float: left; width: 700px; }
+#checkoutsteps div.checkoutstep { float: left; font-weight: bold; font-size: 90%; color: #cc9; width: auto; margin-right: 30px; }
+#checkoutsteps div.selected { float: left; font-weight: bold; font-size: 90%; color: #993; border-bottom: 2px solid #993; width: auto; margin-right: 30px; }
+div.total { float: right; text-align: right; width: 80px; margin-right: 5px }
+table#total { float: right; text-align: right; margin-right: 5px }
+table#total td { vertical-align: middle; height: 30px }
+table#total td.label { padding-right: 0px }
+select {
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #aaa;
+	padding: 4px;
+	color: #555;
+	margin-top: 2px;
+}
+#applyGiftCard {
+	cursor: pointer;
+	line-height: 20px; 
+	height: 20px; 
+	border-top: 1px solid #ccc; 
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	font-size: 75%; 
+	background-color: #eee; 
+	display: inline-block; 
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+#updateCreditCard {
+	cursor: pointer;
+	line-height: 25px; 
+	height: 25px; 
+	border-top: 1px solid #ccc; 
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	font-size: 80%; 
+	background-color: #eee; 
+	display: inline-block; 
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+.discountAmount { color: red; }
+.giftcardremaining { font-size: 80%; color: #666 }
+#updateShipping span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #cc3; font-size: 120%; width: 90px;
+	background-color: #ff9; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#updateShipping:hover span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #ee9; font-size: 120%; width: 90px;
+	background-color: #ffc; color: #666; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#updateShipping span.text { text-align: center;
+	line-height: 30px; height: 30px; border: 2px solid #ddd; font-size: 120%; width: 90px;
+	background-color: #ddd; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+.address label { font-size: 10pt; color: #666; margin-left: 5px; font-weight: bold; margin-right: 3px }
+.address label.optional { font-weight: normal }
+.address input.text {
+	margin-top: 2px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #aaa;
+	padding: 2px;
+	color: #555;
+}
+.address .section { margin-top: 10px; float: left }
+#caSection { display: none }
+
+/* CHECKOUT PAYMENT */
+#copyShipping span {
+	color: #000;
+	cursor: pointer;
+	line-height: 20px; 
+	height: 20px; 
+	border-top: 1px solid #ccc; 
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #999; 
+	border-bottom: 1px solid #999; 
+	font-size: 75%; 
+	background-color: #eee; 
+	display: inline-block; 
+	padding-left: 15px; 
+	padding-right: 15px;
+}
+input::-ms-clear {
+    display: none;
+}
+#reviewOrder span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #cc3; font-size: 120%; width: 90px;
+	background-color: #ff9; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#reviewOrder:hover span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #ee9; font-size: 120%; width: 90px;
+	background-color: #ffc; color: #666; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#reviewOrder span.text { text-align: center;
+	line-height: 30px; height: 30px; border: 2px solid #ddd; font-size: 120%; width: 90px;
+	background-color: #ddd; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+.form label { font-size: 10pt; color: #666; margin-left: 5px; font-weight: bold; margin-right: 3px }
+.form label.optional { font-weight: normal }
+.form input.text {
+	margin-top: 2px;
+	height: 22px;
+	line-height: 22px;
+	border: 1px solid #aaa;
+	padding: 2px;
+	color: #555;
+}
+.form .section { margin-top: 10px; float: left }
+
+/* REVIEW ORDER */
+#placeOrder span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #cc3; font-size: 120%; width: 90px;
+	background-color: #ff9; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#placeOrder:hover span.button { cursor: pointer;
+	line-height: 30px; height: 30px; border: 2px solid #ee9; font-size: 120%; width: 90px;
+	background-color: #ffc; color: #666; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+#placeOrder span.text {
+	line-height: 30px; height: 30px; border: 2px solid #ddd; font-size: 120%; width: 90px;
+	background-color: #ddd; color: #000; font-weight: bold; display: inline-block; padding-left: 25px; padding-right: 25px;
+}
+.v {
+    display: inline-block; width: 13px; height: 13px; background-image: url('/images/vsprite.png'); background-repeat: no-repeat; background-position: 0px 0px
+}
+.ok {
+    background-position: -26px 0px
+}
+.error {
+    background-position: -13px 0px
+}
